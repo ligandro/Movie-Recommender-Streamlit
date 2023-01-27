@@ -125,10 +125,12 @@ count = 10
 results = search(x)
 movie_id = results.iloc[0]["movieId"]
 df = find_similar_movies(movie_id,count)
+df.reset_index(inplace=True,drop=True)
+df.index = df.index+1
 
 st.table(df)
 
-st.subheader("Highest the score , better the similiarity between movies")
+st.subheader("Higher the score, better the similiarity between movies")
 
 
 
