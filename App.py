@@ -81,7 +81,7 @@ def search(title):
 
 
 # https://files.grouplens.org/datasets/movielens/ml-25m.zip
-ratings = pd.read_csv("("data/ratings1.csv")
+ratings = pd.read_csv("data/ratings1.csv")
 
 
 
