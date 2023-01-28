@@ -56,7 +56,7 @@ right: 2rem;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-movies = pd.read_csv("/Users/ligandrosy/Downloads/movies.csv")
+movies = pd.read_csv("("data/movies.csv")
 
 def clean_title(title):
     title = re.sub("[^a-zA-Z0-9 ]", "", title)
@@ -81,7 +81,7 @@ def search(title):
 
 
 # https://files.grouplens.org/datasets/movielens/ml-25m.zip
-ratings = pd.read_csv("/Users/ligandrosy/Downloads/ratings.csv")
+ratings = pd.read_csv("("data/ratings1.csv")
 
 
 
