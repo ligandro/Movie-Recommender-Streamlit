@@ -17,9 +17,7 @@ from bs4 import BeautifulSoup
 import json
 import datetime
 
-
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.feature_extraction.text import TfidfVectorizer
+import sklearn
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="Movie", page_icon=":clapper:", layout="wide")
